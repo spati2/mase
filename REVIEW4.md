@@ -14,13 +14,29 @@ What is the problem with local maxima?
 2. Explain the following, using the above diagram:
 
  * Holes
+ 
+    The Holes are the pitfall regions of the diagram denoted by the symbol '-'
+
  * Poles
+ 
+    The poles are the mountain regions of the diagram denoted by the symbol '+'
+
  * Saddles
+ 
+    The saddle is the region of flat space between a pole '+' and a hole '-'. 
  * Local minima
+ 
+    A point is termed as the local minima if it has the lowest value amongst all its neighbourhood values. The regions marked '-' are regions of local minima which may or may not be the global minima.
  * Flat
+ 
+    A flat region in the above diagram is a landscape of the chart that is completely flat. A value in the flat region is neither better nor worse than its neighbours.
+
  * Brittle
+    
 
 3. Explain the following term and describe how it handles the problem of flat: Retries.
+
+  Sometimes it may so happen that we may get stuck in a region of the landscape where we will not make good progress(e.g. flat space). Instead of trying to cross this flat region in the hopes of finding a good solution at the end, it is advisable to forget everything and start from scratch again. This forms the basis of retries. Using retry we eject ourselves into another region of the landscape and begin a fresh search for a good soluton.
 
 4. How does the following techniques avoid the problems of local maxima?
 
